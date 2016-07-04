@@ -2,7 +2,6 @@
     "name": "pviojo/transantiago-api",
     "description": "Wrapper API Transantiago for PHP",
     "homepage": "http://github.com/pviojo/transantiago-api",
-    "version":"1.0",
     "license": "MIT",
     "authors": [
         {
