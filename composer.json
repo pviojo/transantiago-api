@@ -1,13 +1,18 @@
 {
-    "name": "pviojo/transantiago-api",
-    "description": "Wrapper API Transantiago for PHP",
-    "homepage": "http://github.com/pviojo/transantiago-api",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Pablo Viojo",
-            "email": "pviojo@gmail.com"
-        }
-    ],
-    "require": {}
+	"name": "pviojo/transantiago-api",
+	"description": "Wrapper API Transantiago for PHP",
+	"homepage": "http://github.com/pviojo/transantiago-api",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Pablo Viojo",
+			"email": "pviojo@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"Transantiago": "src/Transantiago/"
+		}
+	},
+	"require": {}
 }
