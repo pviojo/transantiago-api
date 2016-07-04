@@ -9,5 +9,10 @@
             "email": "pviojo@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Transantiago": "src/Transantiago"
+        }
+    }
 }
