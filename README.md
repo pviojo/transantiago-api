@@ -23,10 +23,10 @@ or
 Documentation
 -------------
 
-    echo (Transantiago::recorrido("401")) //Devuelve la información del recorrido 401
-    echo (Transantiago::predictor("PA345")) //Devuelve los próximos servicios en el paradero PA345
-    echo (Transantiago::predictor("PA345", "401")) //Devuelve el proximo servicio 401 en el paradero PA345
-    echo (Transantiago::paraderosCercanos(-33.4439997, -70.6503935) //Devuelve los paraderos cercanos a la lat/lng enviada
+    echo (Transantiago::recorrido("401")); //Devuelve la información del recorrido 401
+    echo (Transantiago::predictor("PA345")); //Devuelve los próximos servicios en el paradero PA345
+    echo (Transantiago::predictor("PA345", "401")); //Devuelve el proximo servicio 401 en el paradero PA345
+    echo (Transantiago::paraderosCercanos(-33.4439997, -70.6503935)); //Devuelve los paraderos cercanos a la lat/lng enviada
   
 Default return format is JSON, You can change it setting the format before requesting the information:
 
